@@ -8,9 +8,9 @@ import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 import static springfox.documentation.builders.PathSelectors.regex;
 
-// trying to configure the app with swagger
+// trying to configure the app with swagger - without success
 
-@EnableSwagger2
+//@EnableSwagger2  - in a comment because the application doesn't run if attempted with this annotation
 @Configuration
 public class SwaggerConfiguration {
 
